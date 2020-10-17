@@ -59,31 +59,45 @@
       <h1 class="display-4 font-weight-bold">Gallery</h1>
     </div>
 
+    <div class="container text-center p-3">
+      <p>Showcasing the incredible work we've done over the years of something like that.</p>
+    </div>
+
     <div class="container">
       <div class="row my-5" style="display: flex; flex-wrap: wrap;">
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://media3.s-nbcnews.com/j/newscms/2019_41/3047866/191010-japan-stalker-mc-1121_06b4c20bbf96a51dc8663f334404a899.fit-760w.JPG" style="object-fit: cover;">
+        <div class="col-sm-6 col-lg-4 my-2" data-toggle="modal" data-target="#exampleModal" data-title="Healthcare" data-image="./images/gallery/Healthcare1.jpg">
+          <img class="w-100 h-100" src="./images/gallery/Healthcare1.jpg" style="object-fit: cover;">
         </div>
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg" style="object-fit: cover;">
+        <div class="col-sm-6 col-lg-4 my-2" data-toggle="modal" data-target="#exampleModal" data-title="Healthcare" data-image="./images/gallery/Healthcare2.jpg">
+          <img class="w-100 h-100" src="./images/gallery/Healthcare2.jpg" style="object-fit: cover;">
         </div>
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="object-fit: cover;">
+        <div class="col-sm-6 col-lg-4 my-2" data-toggle="modal" data-target="#exampleModal" data-title="Healthcare" data-image="./images/gallery/Healthcare3.jpg">
+          <img class="w-100 h-100" src="./images/gallery/Healthcare3.jpg" style="object-fit: cover;">
         </div>
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://media3.s-nbcnews.com/j/newscms/2019_41/3047866/191010-japan-stalker-mc-1121_06b4c20bbf96a51dc8663f334404a899.fit-760w.JPG" style="object-fit: cover;">
+        <div class="col-sm-6 col-lg-4 my-2" data-toggle="modal" data-target="#exampleModal" data-title="Healthcare" data-image="./images/gallery/Healthcare4.jpg">
+          <img class="w-100 h-100" src="./images/gallery/Healthcare4.jpg" style="object-fit: cover;">
         </div>
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://media3.s-nbcnews.com/j/newscms/2019_41/3047866/191010-japan-stalker-mc-1121_06b4c20bbf96a51dc8663f334404a899.fit-760w.JPG" style="object-fit: cover;">
+        <div class="col-sm-6 col-lg-4 my-2" data-toggle="modal" data-target="#exampleModal" data-title="Healthcare" data-image="./images/gallery/Healthcare5.jpg">
+          <img class="w-100 h-100" src="./images/gallery/Healthcare5.jpg" style="object-fit: cover;">
         </div>
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://media3.s-nbcnews.com/j/newscms/2019_41/3047866/191010-japan-stalker-mc-1121_06b4c20bbf96a51dc8663f334404a899.fit-760w.JPG" style="object-fit: cover;">
+        <div class="col-sm-6 col-lg-4 my-2" data-toggle="modal" data-target="#exampleModal" data-title="Healthcare" data-image="./images/gallery/Healthcare6.jpg">
+          <img class="w-100 h-100" src="./images/gallery/Healthcare6.jpg" style="object-fit: cover;">
         </div>
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://media3.s-nbcnews.com/j/newscms/2019_41/3047866/191010-japan-stalker-mc-1121_06b4c20bbf96a51dc8663f334404a899.fit-760w.JPG" style="object-fit: cover;">
-        </div>
-        <div class="col-sm-6 col-lg-3 my-2">
-          <img class="w-100 h-100" src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="object-fit: cover;">
+      </div>
+    </div>
+
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img class="w-100 h-100" id="modalImage" src="" style="object-fit: cover;">
+          </div>
         </div>
       </div>
     </div>
@@ -153,4 +167,18 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
   </body>
+
+  <script>
+    $('#exampleModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget) // Button that triggered the modal
+      var image = button.data('image')
+      var title = button.data('title') 
+      // Extract info from data-* attributes
+      // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+      // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+      var modal = $(this)
+      modal.find('.modal-title').text(title)
+      document.getElementById('modalImage').src=image;
+    })
+  </script>
 </html>
